@@ -1,0 +1,12 @@
+{
+  "namespace": "cdr.types",
+  "type": "record",
+  "name": "Reading",
+  "fields": [
+    {"name": "reading","type": "float"},
+    {"name": "meterSerial","type": "string"},
+    {"name": "lastUpdate","logicalType": "timestamp-millis",
+      "type":"long"}
+  ],
+  "connect.version":1,"connect.name":"Reading"
+}
